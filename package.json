@@ -1,0 +1,28 @@
+{
+  "name": "nutritionix",
+  "version": "0.0.1",
+  "description": "Nutritionix API unofficial wrapper. Nutrionix API lets you find nutrition information of 8,000 food items.",
+  "main": "lib/nutrionix.js",
+  "dependencies": {
+    "restler": "~2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "keywords": [
+    "nutrionix",
+    "nutrition",
+    "food",
+    "fat",
+    "sugar"
+  ],
+  "author": "Nicolas Grenié",
+  "license": "MIT"
+}
