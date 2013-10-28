@@ -1,10 +1,12 @@
 var should = require('should');
-var nutrionix = require("../lib/nutrionix");
+var nutritionix = require("../lib/nutritionix");
 
 describe('nutrionix', function(){
   describe('with no arguments',function(){
   	it('returns an error',function(){
-  		nutrionix().should.throwError(/^APIkeys.*/);
-  	});
+  		(function(){
+  			nutritionix();
+		}).should.throw(/API/);
+  	}),
   });
 });
