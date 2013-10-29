@@ -1,4 +1,9 @@
 language: node_js
 node_js:
-  - "0.10"
-  - "0.9"
+- '0.10'
+- '0.9'
+deploy:
+  api_key:
+    secure: lYsRmq9ip82oHe5h7O9crVRJ47QlQ2h99YvBiLx6akFRiyPWKzzLrSXzuLjNT/6MS6pjMLyTWdyaO/tnlVw35zWrJ+UMZpioZMPRYXqbrQ52NOGSUgOiMb4x3OaNfFNwQftluXVQr+9ENESHtUOdUFCxDZO4ev728/ihraqRpao=
+  email: me@nicolasgrenie.com
+  provider: npm
