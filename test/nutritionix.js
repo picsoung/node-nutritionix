@@ -1,12 +1,35 @@
 var should = require('should');
-var nutritionix = require("../lib/nutritionix");
+var Nutritionix = require("../lib/nutritionix");
+var api_url = "https://api.nutritionix.com/v1_1/"
 
-describe('nutrionix', function(){
+var apiKey = "ff97a848effe18cce7b5d8e6367ed9e6";
+var apiId ="cc135298"
+var nutri = new Nutritionix(apiKey,apiId);
+
+describe('nutritionix', function(){
   describe('with no arguments',function(){
   	it('returns an error',function(){
   		(function(){
-  			nutritionix();
-		}).should.throw(/API/);
-  	}),
+  			Nutritionix();
+  		}).should.throw(/API/);
+  	});
+  });
+  describe('with good keys and secret',function(){
+  	it('return an object',function(){
+      nutri.should.have.type('object');
+  	});
+  });
+  describe('get item with upc',function(){
+    it('fails because can\'t be blank',function(){
+      (function(){
+        nutri.getItemByUPC("");
+      }).should.throw();
+    }),
+
+    it('returns infos',function(){
+      nutri.getItemByUPC("52200004265",function(result){
+        result.should.eql("ahaha");
+      });
+    });
   });
 });
