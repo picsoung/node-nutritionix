@@ -24,11 +24,13 @@ describe('nutritionix', function(){
       (function(){
         nutri.getItemByUPC("");
       }).should.throw();
-    }),
+    });
 
-    it('returns infos',function(){
+    it('returns infos',function(done){
       nutri.getItemByUPC("52200004265",function(result){
-        result.should.eql("");
+        var r = JSON.parse(result);
+        r.item_id.should.eql('51c38f3c97c3e6d3d972ef8d');
+        done();
       });
     });
   });
