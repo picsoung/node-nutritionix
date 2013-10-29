@@ -28,7 +28,7 @@ describe('nutritionix', function(){
 
     it('returns infos',function(){
       nutri.getItemByUPC("52200004265",function(result){
-        result.should.eql("ahaha");
+        result.should.eql("");
       });
     });
   });
