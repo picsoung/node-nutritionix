@@ -1,4 +1,4 @@
-# Nutritonix package for Node.js
+# Nutritionix package for Node.js
 [![Build Status](https://travis-ci.org/picsoung/sleep-sort.png?branch=master)](https://travis-ci.org/picsoung/sleep-sort)
 
 This is a simple wrapper for the [Nutritionix](www.nutritionix.com) API.
