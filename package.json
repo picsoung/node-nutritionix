@@ -8,8 +8,7 @@
   },
   "devDependencies": {
     "mocha": "",
-    "should": "",
-    "nock":""
+    "should": ""
   },
   "directories": {
     "test": "test"
@@ -17,13 +16,28 @@
   "scripts": {
     "test": "make test"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://git@github.com/picsoung/node-nutritionix.git"
+  },
   "keywords": [
     "nutrionix",
     "nutrition",
     "food",
     "fat",
-    "sugar"
+    "sugar",
+    "API",
+    "healthcare"
   ],
-  "author": "Nicolas Grenié",
-  "license": "MIT"
+  "author": {
+    "name" : "Nicolas Grenié",
+    "email" : "me@nicolasgrenie.com",
+    "url" : "http://nicolasgrenie.com"
+  },
+  "license": "MIT",
+  "readmeFilename": "Readme.md",
+  "homepage": "https://github.com/picsoung/node-nutritionix",
+  "bugs": {
+    "url": "https://github.com/picsoung/node-nutritionix/issues"
+  }
 }
