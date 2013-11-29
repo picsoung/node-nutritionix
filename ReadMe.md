@@ -18,7 +18,7 @@ The documentation of the API could be found [here](https://developer.nutritionix
 # Usage
 
 ```javascript
-var Nutritionix = require('./lib/nutritionix');
+var Nutritionix = require('nutritionix');
 var nutri = new Nutritionix('YOUR_API_KEY','YOUR_APP_ID');
 
 //Search for a brand named coca-cola
