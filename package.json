@@ -2,7 +2,7 @@
   "name": "nutritionix",
   "version": "0.0.2",
   "description": "Nutritionix API unofficial wrapper. Nutrionix API lets you find nutrition information of 300,000 food items.",
-  "main": "lib/nutrionix.js",
+  "main": "lib/nutritionix.js",
   "dependencies": {
     "request": ""
   },
