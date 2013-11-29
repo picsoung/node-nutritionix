@@ -1,5 +1,5 @@
 var should = require('should');
-var Nutritionix = require("../lib/nutritionix");
+var Nutritionix = require("nutritionix");
 var api_url = "https://api.nutritionix.com/v1_1/"
 
 var apiKey = "ff97a848effe18cce7b5d8e6367ed9e6";
