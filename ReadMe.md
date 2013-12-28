@@ -26,12 +26,10 @@ nutri.searchBrand({query:"coca-cola"},function(result){
 	console.log(result);
 });
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/picsoung/node-nutritionix/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
 //Search nutrition fact of an item with barcode = 52200004265
 // here it corresponds to Bay cereals for Beet nuts brand
 nutri.getItemByUPC("52200004265",function(result){
 	console.log(result);
 });
 ```
-
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/picsoung/node-nutritionix/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
